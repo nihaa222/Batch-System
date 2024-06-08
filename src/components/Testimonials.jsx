@@ -52,7 +52,7 @@ function Testimonials() {
 
               <img
                 src="Star 1.png"
-                className="absolute top-[550px] -left-60"
+                className="absolute top-[550px] -left-20"
               ></img>
             </div>
           </div>
