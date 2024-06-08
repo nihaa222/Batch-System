@@ -1,0 +1,85 @@
+body {
+  overflow-x: hidden;
+}
+
+.abhaya-libre-regular {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abhaya-libre-medium {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.abhaya-libre-semibold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.abhaya-libre-bold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.abhaya-libre-extrabold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ball {
+  height: 150px;
+
+  width: 300px;
+  background: rgba(255, 255, 0, 0.467);
+  border-radius: 50%;
+  filter: blur(40px);
+}
+
+.ball::after {
+  content: "";
+  height: 150px;
+  width: 300px;
+  top: 100px;
+  left: 50px;
+  position: absolute;
+  background: rgb(239, 43, 43);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(30px);
+}
+.rotate-45 {
+  transform: rotate(45deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}
+.rotate-60 {
+  transform: rotate(60deg);
+}
+.rotate-15 {
+  transform: rotate(14.5deg);
+}
+
+@layer font {
+  .bold-text {
+    font-weight: bold;
+  }
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold; /* This is for the bold weight of Open Sans */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
