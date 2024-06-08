@@ -36,6 +36,8 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+/* css for background ball */
+
 .ball {
   height: 150px;
 
@@ -68,12 +70,6 @@ body {
 }
 .rotate-15 {
   transform: rotate(14.5deg);
-}
-
-@layer font {
-  .bold-text {
-    font-weight: bold;
-  }
 }
 
 .open-sans-bold {

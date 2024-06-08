@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="grid grid-cols-custom max-w-[1200px] mx-auto">
-      <div className=" mt-8 relative">
+      <div className=" mt-16 relative">
         <p className=" text-[64px] open-sans-bold leading-tight">
           <p>Make The Best Financial Decisions</p>
           <p className="text-[16px] mt-4 text-gray-400">
