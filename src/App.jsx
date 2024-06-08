@@ -11,7 +11,7 @@ import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <>
-      <div className="w-[1400px]  mx-auto ">
+      <div className="w-[1400px]  mx-auto border-2 border-red-500 ">
         <Header />
         <Hero />
         <Premium />

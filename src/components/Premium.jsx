@@ -3,7 +3,7 @@ function Premium() {
     <div className="grid grid-cols-2 mt-24">
       <div className=" justify-self-end mr-20 relative">
         <div className="relative ">
-          <img src="Star 1.png" className="absolute -left-20 -top-10"></img>
+          <img src="Star 1.png" className="absolute -left-10 -top-10"></img>
           <div className=" absolute ball"></div>
 
           <img

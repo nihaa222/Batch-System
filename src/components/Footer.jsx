@@ -5,7 +5,7 @@ function Footer() {
         <img className="w-[1090px] ml-10 h-[400px]" src="\Frame (2).png"></img>
         <img src="Star 1.png" className="absolute -top-20 right-1"></img>
         <div className="absolute ball -left-10  -top-5 -z-50 rotate-180 "></div>
-        <img src="Star 1.png" className="absolute top-28 -left-36 "></img>
+        <img src="Star 1.png" className="absolute top-28 -left-20 "></img>
       </div>
       <div className="grid grid-cols-4 mt-20">
         <div className="flex flex-col gap-4">
